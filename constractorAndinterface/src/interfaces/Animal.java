@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface Animals {
+public interface Animal {
     void makeSound();
 }

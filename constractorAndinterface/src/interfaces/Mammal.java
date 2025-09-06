@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface Mammal {
+public interface Mammal extends Animal { // mammal is child
     void giveBirth();
 }
