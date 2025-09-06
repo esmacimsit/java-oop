@@ -1,10 +1,12 @@
+package constractors;
+
 public class Main {
     public static void main(String[] args) {
         Person person = new Person("buket", 24);
         System.out.println("person.name = " + person.name);
         System.out.println("person.age = " + person.age);
 
-//        Car car = new Car("Volkswagen", "Jetta", 2016); // display given parameters
+//        constractors.Car car = new constractors.Car("Volkswagen", "Jetta", 2016); // display given parameters
         Car car = new Car(); // display default parameters
         car.printInfo();
 
