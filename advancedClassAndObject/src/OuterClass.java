@@ -21,8 +21,4 @@ public class OuterClass {
         LocalInnerClass localInnerClass = new LocalInnerClass();
         localInnerClass.printMessage();
     }
-
-
-
-
 }
