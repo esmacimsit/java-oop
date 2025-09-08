@@ -12,5 +12,10 @@ public class Main {
 
         Child child = new Child();
         child.display();
+
+        new ChildConst();
+
+        SubClass sub = new SubClass();
+        sub.show();
     }
 }
